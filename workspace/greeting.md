@@ -1,3 +1,3 @@
 # Greeting
 
-Hello from the lab branch.
+Hello from the lab and conflict branches.
