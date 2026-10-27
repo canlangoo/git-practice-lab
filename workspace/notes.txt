@@ -1,6 +1,7 @@
 在这里写下你的练习笔记。先改这一行，感受工作区和暂存区。
 ##工作区
 编写中的文件，做出的改动没有被git记录
+观察：改完不加 git add，git diff 能看到，git status 显示 not staged。
 
 ##暂存区
 下次commit的快照
