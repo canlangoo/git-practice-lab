@@ -5,3 +5,8 @@
 
 ##暂存区
 下次commit的快照
+
+## 待验证
+
+- restore 会不会真的丢掉工作区改动
+- reset --soft 和 --mixed 的差别在哪里
