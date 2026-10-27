@@ -1,3 +1,3 @@
 # Greeting
 
-Hello from canlangoo's feature branch.
+Hello from the lab branch.
