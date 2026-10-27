@@ -12,7 +12,7 @@
 
 - [x] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
 - [x] Stage 1 — 工作区 / 暂存区 / commit
-- [ ] Stage 2 — 分支、merge、冲突解决
+- [x] Stage 2 — 分支、merge、冲突解决
 - [ ] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
 - [ ] Stage 5 — fetch upstream、push、开 PR
@@ -43,14 +43,14 @@ commit：写进历史，无法改变的快照
 | 说明 | Hash |
 |------|------|
 | Stage 1 第一次较好的 commit |8e60e0defcf78f6efe0394143f9e0466f914e950 |
-| Stage 2 冲突解决（或合并）commit | |
+| Stage 2 冲突解决（或合并）commit | be21534a4ab3e5f4c3296d8278ac11e5ab390374|
 | Stage 3 revert 产生的 commit | |
 | Stage 4 submodule add 的 commit | |
 
 ## Stage 2 补充
 
-- 普通 merge 结果：□ 快进（fast-forward）　□ 合并提交（merge commit）　□ 其他：
-- 冲突解决简述：
+- 普通 merge 结果：☑ 快进（fast-forward）　□ 合并提交（merge commit）　□ 其他：
+- 冲突解决简述：feature/greeting-conflict 与 lab/canlangoo 都改了workspace/greeting.md 第 3 行；merge 时产生冲突，删掉三行标记后合并为"Hello from the lab and conflict branches."，git add 后 commit 完成合并。
 
 ## Stage 5 补充
 
