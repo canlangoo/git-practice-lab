@@ -13,7 +13,7 @@
 - [x] Stage 0 — Fork、clone、upstream、创建 `lab/<username>`
 - [x] Stage 1 — 工作区 / 暂存区 / commit
 - [x] Stage 2 — 分支、merge、冲突解决
-- [ ] Stage 3 — 坏提交 + revert
+- [x] Stage 3 — 坏提交 + revert
 - [ ] Stage 4 — 添加 submodule `third_party/kit`
 - [ ] Stage 5 — fetch upstream、push、开 PR
 
@@ -32,7 +32,7 @@ commit：写进历史，无法改变的快照
 
 ### 3. 什么情况下不应该对已推送的共享分支使用 `git reset --hard`？为什么？
 
-<!-- 你的回答 -->
+不应该对已经推送并且其他人基于其进行分支工作的分支使用 。reset --hard会强行回退到某个历史节点，之前的提交就会被抹除。已经推送的就只能push --force覆盖远程历史，其他人的提交会被顶替掉。
 
 ### 4. 带 submodule 的仓库 clone 后子目录是空的，常见原因是什么？怎么处理？
 
