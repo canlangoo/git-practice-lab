@@ -44,7 +44,7 @@ commit：写进历史，无法改变的快照
 |------|------|
 | Stage 1 第一次较好的 commit |8e60e0defcf78f6efe0394143f9e0466f914e950 |
 | Stage 2 冲突解决（或合并）commit | be21534a4ab3e5f4c3296d8278ac11e5ab390374|
-| Stage 3 revert 产生的 commit | |
+| Stage 3 revert 产生的 commit |08852147c65c0b386b665eb7486bfc22ee5178de |
 | Stage 4 submodule add 的 commit | |
 
 ## Stage 2 补充
