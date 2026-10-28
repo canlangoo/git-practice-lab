@@ -15,7 +15,7 @@
 - [x] Stage 2 — 分支、merge、冲突解决
 - [x] Stage 3 — 坏提交 + revert
 - [x] Stage 4 — 添加 submodule `third_party/kit`
-- [ ] Stage 5 — fetch upstream、push、开 PR
+- [x] Stage 5 — fetch upstream、push、开 PR
 
 ## 简答题
 
@@ -54,8 +54,8 @@ commit：写进历史，无法改变的快照
 
 ## Stage 5 补充
 
-- 同步 `upstream/main` 时使用：□ merge　□ rebase
-- 选择理由：
+- 同步 `upstream/main` 时使用：☑ merge　□ rebase
+- 选择理由：分支已经推送，merge不会改写历史，无需force push。fetch后执行merge返回Already up to date，说明上游没有当前分支未包含的提交。
 
 ## 其他备注（可选）
 
