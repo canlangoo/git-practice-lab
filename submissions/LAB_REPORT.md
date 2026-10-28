@@ -14,7 +14,7 @@
 - [x] Stage 1 — 工作区 / 暂存区 / commit
 - [x] Stage 2 — 分支、merge、冲突解决
 - [x] Stage 3 — 坏提交 + revert
-- [ ] Stage 4 — 添加 submodule `third_party/kit`
+- [x] Stage 4 — 添加 submodule `third_party/kit`
 - [ ] Stage 5 — fetch upstream、push、开 PR
 
 ## 简答题
@@ -36,7 +36,7 @@ commit：写进历史，无法改变的快照
 
 ### 4. 带 submodule 的仓库 clone 后子目录是空的，常见原因是什么？怎么处理？
 
-<!-- 你的回答 -->
+子模块是个独立的仓库，父仓库只会记录它与某个commit有关。默认clone不会拉取子模块的内容，所以目录存在但是里面是空的。解决方法是用"git clone  --recurse-submodules <url>"
 
 ## 关键 commit（填写短 hash 或完整 hash）
 
@@ -45,7 +45,7 @@ commit：写进历史，无法改变的快照
 | Stage 1 第一次较好的 commit |8e60e0defcf78f6efe0394143f9e0466f914e950 |
 | Stage 2 冲突解决（或合并）commit | be21534a4ab3e5f4c3296d8278ac11e5ab390374|
 | Stage 3 revert 产生的 commit |08852147c65c0b386b665eb7486bfc22ee5178de |
-| Stage 4 submodule add 的 commit | |
+| Stage 4 submodule add 的 commit |a0e2d9bd6d547db82fa7e27b87a02298d8a5682a |
 
 ## Stage 2 补充
 
